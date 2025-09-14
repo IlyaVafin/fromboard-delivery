@@ -1,0 +1,26 @@
+:root {
+  --main-color-dark: #111827;
+  --main-color-white: #f9fafb;
+  --main-color-purple: #8b5cf6;
+  --accent-color-dark: #4b5563;
+
+  --border-radius-s: 4px;
+  --border-radius-l: 16px;
+}
+
+.text-3xl {
+  font-family: Formular;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 36px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
