@@ -6,7 +6,7 @@ export function convertCurrency(
   amount: number,
   from: Currency,
   to: Currency,
-  rates: ExchangeRate | undefined,
+  rates: ExchangeRate | undefined
 ): number {
   if (from === to) return amount
   if (!rates?.rates[from] || !rates?.rates[to])
