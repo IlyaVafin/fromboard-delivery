@@ -1,2 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
 .companyName {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.headerName {
+  color: var(--main-color-dark);
+}
+
+.footerName {
+  color: var(--main-color-white);
 }

@@ -4,7 +4,7 @@ type LogoPlace = "footer" | "header"
 
 const Logo = ({ place }: { place: LogoPlace }) => {
   return (
-    <div>
+    <div className={s.logo}>
       <img src={LogoImage} alt="logo-icon" />
       <span
         className={`${s.companyName} ${place === "footer" ? s.footerName : s.headerName}`}
