@@ -18,10 +18,5 @@ export const useExchageRate = () => {
       setExchange(exchangeResult)
     })()
   }, [])
-  useEffect(() => {
-    let a = 5
-    a = 4
-    console.log(a)
-  }, [])
   return exchange
 }

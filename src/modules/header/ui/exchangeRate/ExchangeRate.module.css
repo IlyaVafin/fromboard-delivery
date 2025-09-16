@@ -1,3 +1,5 @@
 .exchangeContainer {
   text-align: right;
+  border-right: 1px solid var(--accent-color-purple);
+  padding-right: 12px;
 }

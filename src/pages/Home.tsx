@@ -1,6 +1,6 @@
 import Container from "../components/container/Container"
 import Layout from "../components/layout/Layout"
-import Header from "../modules/header/Header"
+import { Header } from "../modules"
 
 const Home = () => {
   return (

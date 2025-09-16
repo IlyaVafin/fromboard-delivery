@@ -1,0 +1,9 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContact {
+  display: flex;
+  column-gap: 12px;
+}
