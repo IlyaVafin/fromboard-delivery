@@ -2,10 +2,11 @@
   --main-color-dark: #111827;
   --main-color-white: #f9fafb;
   --main-color-purple: #8b5cf6;
+  --main-color-gray: #9ca3af;
 
   --accent-color-purple: #a78bfa;
   --accent-color-dark: #4b5563;
-
+  --accent-color-white: #e5e7eb;
   --border-radius-s: 4px;
   --border-radius-l: 16px;
 }
@@ -13,15 +14,26 @@
 .text-3xl {
   font-family: Formular;
   font-weight: 900;
-  font-style: Black;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
-  vertical-align: middle;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  color: var(--main-color-dark);
+  background-color: var(--accent-color-white);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

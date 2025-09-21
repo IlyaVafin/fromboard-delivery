@@ -1,3 +1,7 @@
+.header {
+  background-color: var(--main-color-white);
+  padding-bottom: 24px;
+}
 .headerContent {
   display: flex;
   justify-content: space-between;

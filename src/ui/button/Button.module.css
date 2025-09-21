@@ -1,0 +1,9 @@
+.purpleActive {
+  background-color: var(--main-color-purple);
+  color: var(--main-color-white);
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: var(--border-radius-s);
+  font-family: "Formular";
+}

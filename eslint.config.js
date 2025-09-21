@@ -36,6 +36,7 @@ export default [
     },
     rules: {
       semi: "off",
+      "no-irregular-whitespace": "off",
       quotes: [
         "error",
         "double",
